@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS chính của website -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+<nav class="navbar">
+    <div class="container">
+        <div class="logo">
+            <i class="fas fa-heart" style="color: #ff9a9e;"></i>
+            <span class="logo-text">Dành Cho Em</span>
+        </div>
+        
+        <!-- Nút menu cho mobile -->
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <!-- Menu chính -->
+        <div class="nav-menu" id="navMenu">
+            <div class="close-menu" id="closeMenu">
+                <i class="fas fa-times"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Trang chủ</a></li>
+                <li><a href="#images" class="nav-link">Hình ảnh</a></li>
+                <li><a href="#messages" class="nav-link">Tin nhắn</a></li>
+                <li><a href="#memories" class="nav-link">Kỷ niệm</a></li>
+                <li><a href="#videos" class="nav-link">Video hài</a></li>
+                <li><a href="#meet" class="nav-link">Gặp nhau</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- HOME SECTION -->
+<section id="home" class="hero-section">
+    <div class="container">
+        <!-- Tiêu đề chính -->
+        <div class="hero-header">
+            <h1 class="main-title">Dành Cho Em</h1>
+            <p class="sub-title">Minh Anh</p>
+        </div>
+
+        <!-- HÌNH ẢNH SECTION -->
+<section id="images" class="images-section">
+    <div class="container">
+        <div class="section-header">
+            <h2><i class="fas fa-camera-retina"></i> Hình Ảnh Của Chúng Mình</h2>
+            <p>Những khoảnh khắc đẹp nhất</p>
+        </div>
+        
+        <div class="hero-images">
+            <!-- Giữ nguyên 4 thẻ hero-image-card của bro -->
+            <div class="hero-image-card">
+                <img src="dreamina-2026-03-12-9405-Kết hợp nhân vật nữ trong Hình 1 và nhân....jpeg" alt="Minh Sang">
+                <div class="image-label">Anh Và Em Trong <br/> Tương Lai Nè!</div>
+            </div>
+            <div class="hero-image-card">
+                <img src="em-xinh.jpg" alt="Minh Anh">
+                <div class="image-label">Ai Mà Xinh Dữ Vậy Ta:)?</div>
+            </div>
+            <div class="hero-image-card">
+                <img src="3adaf299-0613-4ff0-8429-6d20cf6758f2.png" alt="Kỷ niệm">
+                <div class="image-label">Ảnh Anh Vẽ <br/> Avata Em Nè</div>
+            </div>
+            <div class="hero-image-card">
+                <img src="f1870e44-8c88-4c5b-8d6c-0e4223ae02a6.png" alt="Kỷ niệm">
+                <div class="image-label">Mong Em Thích <br/>Cái Vòng Này:3</div>
+            </div>
+        </div>
+    </div>
+</section>
+        
+        <!-- Nội dung chính - PHẦN CHÀO -->
+<div id="greeting-section" class="greeting-container">
+    <div class="greeting-wrapper">
+        <h2 class="greeting-title">Hello, Minh Anh! <span class="wave-emoji">👋</span></h2>
+        <p class="greeting-message">Web anh làm nè, em thấy đẹp hong? <span class="heart-emoji">❤️</span></p>
+        <p class="greeting-submessage">Thành quả của anh khi ngồi trên máy và làm để dành cho em nè!</p>
+        
+        <div class="love-message-box">
+            <p class="love-line">Web này là nơi chứa tin nhắn với hình ảnh lẫn kỷ niệm của anh và em,</p>
+            <p class="love-highlight">chỉ dành riêng cho em thôi</p>
+            <p class="love-question">Em hạnh phúc không? Có vui không nè? Anh làm nó là vì em á!</p>
+        </div>
+        
+        <a href="#images" class="explore-button">
+            Khám phá ngay <i class="fas fa-arrow-down"></i>
+        </a>
+    </div>
+</div>
+        
+        <!-- Đường nhịp tim -->
+        <div class="heartbeat-container">
+            <svg class="heartbeat-svg" viewBox="0 0 400 100" preserveAspectRatio="none">
+                <path class="heartbeat-path" d="M0,50 L50,50 L70,20 L90,80 L110,30 L130,70 L150,40 L170,60 L190,45 L210,55 L230,48 L250,52 L270,49 L290,51 L310,50 L330,50 L350,50 L370,50 L400,50" 
+                      stroke="#ff9a9e" stroke-width="2" fill="none"/>
+            </svg>
+            <div class="heartbeat-text">NHỊP TIM CỦA ANH KHI GẶP EM 🐧</div>
+        </div>
+    </div>
+</section>
+
+<!-- KỶ NIỆM SECTION -->
+<section id="memories" class="memories-section">
+    <div class="container">
+        <div class="section-header">
+            <h2><i class="fas fa-gift"></i> Kỷ Niệm Của Chúng Mình</h2>
+            <p>Những món quà, những vật kỷ niệm</p>
+        </div>
+        
+        <div class="memories-grid">
+            <div class="memory-card">
+                <div class="memory-icon">
+                    <i class="fas fa-ring"></i>
+                </div>
+                <h3>Vòng Tay Đôi</h3>
+                <p class="memory-date">10/3/2026</p>
+                <p class="memory-desc">Vòng tay anh mua cho em nè =) Màu hồng em thích nhất</p>
+            </div>
+            
+            <div class="memory-card">
+                <div class="memory-icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <h3>Lần Đầu Tiên</h3>
+                <p class="memory-date">8/3/2026</p>
+                <p class="memory-desc">Khoảnh khắc đầu tiên chúng mình bên nhau!</p>
+            </div>
+            
+            <div class="memory-card">
+                <div class="memory-icon">
+                    <i class="fas fa-camera"></i>
+                </div>
+                <h3>Ảnh Đầu Tiên</h3>
+                <p class="memory-date">10/3/2026</p>
+                <p class="memory-desc">Tấm hình đầu tiên em gửi cho anh, anh giữ làm kỷ niệm nè</p>
+            </div>
+            
+            <div class="memory-card">
+                <div class="memory-icon">
+                    <i class="fas fa-music"></i>
+                </div>
+                <h3>Bài Hát Của Chúng Mình</h3>
+                <p class="memory-date">Mãi mãi</p>
+                <p class="memory-desc">"Nơi Này Có Anh" - mỗi khi nghe là nhớ tới em</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Video 1 - Múa ghệ cả củ -->
+ 
+<div class="video-card">
+    <div class="video-wrapper">
+        <div class="video-thumbnail">
+            <video width="100%" height="200" controls>
+                <source src="nhay.mp4" type="video/mp4">
+                Trình duyệt của em không hỗ trợ video.
+            </video>
+        </div>
+        <div class="video-info">
+            <div class="video-header">
+                <div>
+                    <h3 class="video-title">Múa ghệ cả củ</h3>
+                    <p class="video-subtitle">ngày 13 tháng 4 năm 2026 lúc 4:42</p>
+                </div>
+                <span class="video-time">💃</span>
+            </div>
+            <p class="video-desc">Video anh làm cho em nè! Xem xong cười cả ngày nha!</p>
+            
+            <!-- Reaction stats -->
+            <div class="reaction-stats" id="reactionStats1">
+                <span class="reaction-count"><i class="fas fa-heart" style="color: #ff4d6d;"></i> <span class="count-value">0</span></span>
+                <span class="reaction-count"><i class="fas fa-thumbs-up" style="color: #1877f2;"></i> <span class="count-value">0</span></span>
+                <span class="reaction-count"><i class="fas fa-laugh" style="color: #f7b125;"></i> <span class="count-value">0</span></span>
+                <span class="reaction-count"><i class="fas fa-angry" style="color: #e9710f;"></i> <span class="count-value">0</span></span>
+                <span class="reaction-count"><i class="fas fa-sad-tear" style="color: #4267b2;"></i> <span class="count-value">0</span></span>
+            </div>
+            
+            <!-- Reaction buttons -->
+            <div class="reaction-wrapper">
+                <button class="reaction-btn" onclick="handleReaction(1, 'like')" aria-label="Thích">
+                    <i class="far fa-thumbs-up"></i>
+                    <span class="btn-text">Thích</span>
+                </button>
+                <div class="reaction-popup" id="reactionPopup1">
+                    <div class="reaction-emoji" onclick="reactToVideo(1, 'like')">
+                        <i class="fas fa-thumbs-up" style="color: #1877f2;"></i>
+                        <span class="emoji-tooltip">Thích</span>
+                    </div>
+                    <div class="reaction-emoji" onclick="reactToVideo(1, 'love')">
+                        <i class="fas fa-heart" style="color: #ff4d6d;"></i>
+                        <span class="emoji-tooltip">Yêu thích</span>
+                    </div>
+                    <div class="reaction-emoji" onclick="reactToVideo(1, 'haha')">
+                        <i class="fas fa-laugh" style="color: #f7b125;"></i>
+                        <span class="emoji-tooltip">Haha</span>
+                    </div>
+                    <div class="reaction-emoji" onclick="reactToVideo(1, 'sad')">
+                        <i class="fas fa-sad-tear" style="color: #4267b2;"></i>
+                        <span class="emoji-tooltip">Buồn</span>
+                    </div>
+                    <div class="reaction-emoji" onclick="reactToVideo(1, 'angry')">
+                        <i class="fas fa-angry" style="color: #e9710f;"></i>
+                        <span class="emoji-tooltip">Giận</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Comment section -->
+            <div class="video-comments">
+                <div class="comment-input">
+                    <img src="anh-luon-thuong-em.jpg" alt="Avatar" class="comment-avatar">
+                    <input type="text" placeholder="Viết bình luận..." id="commentInput1">
+                    <button onclick="addComment(1)" aria-label="Gửi bình luận">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+                <div class="comments-list" id="comments1"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Video 2 - Tình Yêu qua mạng -->
+<div class="video-card">
+    <div class="video-wrapper">
+        <div class="video-thumbnail">
+            <video width="100%" height="200" controls>
+                <source src="FB_hat_nhac.mp4" type="video/mp4">
+                Trình duyệt của em không hỗ trợ video.
+            </video>
+        </div>
+        <div class="video-info">
+            <div class="video-header">
+                <div>
+                    <h3 class="video-title">Tình Yêu qua mạng</h3>
+                    <p class="video-subtitle">ngày 13 tháng 3 năm 2026 lúc 4:45</p>
+                </div>
+                <span class="video-time">❤️</span>
+            </div>
+            <p class="video-desc">Sau này mình hát như này không:3</p>
+            
+            <!-- Reaction stats - SỬA ID thành 2 -->
+            <div class="reaction-stats" id="reactionStats2">
+                <span class="reaction-count"><i class="fas fa-heart" style="color: #ff4d6d;"></i> <span class="count-value">0</span></span>
+                <span class="reaction-count"><i class="fas fa-thumbs-up" style="color: #1877f2;"></i> <span class="count-value">0</span></span>
+                <span class="reaction-count"><i class="fas fa-laugh" style="color: #f7b125;"></i> <span class="count-value">0</span></span>
+                <span class="reaction-count"><i class="fas fa-angry" style="color: #e9710f;"></i> <span class="count-value">0</span></span>
+                <span class="reaction-count"><i class="fas fa-sad-tear" style="color: #4267b2;"></i> <span class="count-value">0</span></span>
+            </div>
+            
+            <!-- Reaction buttons - SỬA ID popup thành 2 -->
+            <div class="reaction-wrapper">
+                <button class="reaction-btn" onclick="handleReaction(2, 'like')" aria-label="Thích">
+                    <i class="far fa-thumbs-up"></i>
+                    <span class="btn-text">Thích</span>
+                </button>
+                <div class="reaction-popup" id="reactionPopup2">
+                    <div class="reaction-emoji" onclick="reactToVideo(2, 'like')">
+                        <i class="fas fa-thumbs-up" style="color: #1877f2;"></i>
+                        <span class="emoji-tooltip">Thích</span>
+                    </div>
+                    <div class="reaction-emoji" onclick="reactToVideo(2, 'love')">
+                        <i class="fas fa-heart" style="color: #ff4d6d;"></i>
+                        <span class="emoji-tooltip">Yêu thích</span>
+                    </div>
+                    <div class="reaction-emoji" onclick="reactToVideo(2, 'haha')">
+                        <i class="fas fa-laugh" style="color: #f7b125;"></i>
+                        <span class="emoji-tooltip">Haha</span>
+                    </div>
+                    <div class="reaction-emoji" onclick="reactToVideo(2, 'sad')">
+                        <i class="fas fa-sad-tear" style="color: #4267b2;"></i>
+                        <span class="emoji-tooltip">Buồn</span>
+                    </div>
+                    <div class="reaction-emoji" onclick="reactToVideo(2, 'angry')">
+                        <i class="fas fa-angry" style="color: #e9710f;"></i>
+                        <span class="emoji-tooltip">Giận</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Comment section - SỬA ID thành 2 -->
+            <div class="video-comments">
+                <div class="comment-input">
+                    <img src="anh-luon-thuong-em.jpg" alt="Avatar" class="comment-avatar">
+                    <input type="text" placeholder="Viết bình luận..." id="commentInput2">
+                    <button onclick="addComment(2)" aria-label="Gửi bình luận">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+                <div class="comments-list" id="comments2"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Video 3 - Một gặp mình chụp ảnh với đi chơi selfie vậy nha -->
+<div class="video-card">
+    <div class="video-wrapper">
+        <div class="video-thumbnail">
+            <video width="100%" height="200" controls>
+                <source src="tuong_lai_khi_gap_nhau.mp4" type="video/mp4">
+                Trình duyệt của em không hỗ trợ video.
+            </video>
+        </div>
+        <div class="video-info">
+            <div class="video-header">
+                <div>
+                    <h3 class="video-title">Một gặp mình chụp ảnh với đi chơi selfie vậy nha:</h3>
+                    <p class="video-subtitle">ngày 13 tháng 3 năm 2026 lúc 4:54</p>
+                </div>
+                <span class="video-time">📸</span>
+            </div>
+            <p class="video-desc">Video</p>
+            
+            <!-- Reaction stats - SỬA ID thành 3 -->
+            <div class="reaction-stats" id="reactionStats3">
+                <span class="reaction-count"><i class="fas fa-heart" style="color: #ff4d6d;"></i> <span class="count-value">0</span></span>
+                <span class="reaction-count"><i class="fas fa-thumbs-up" style="color: #1877f2;"></i> <span class="count-value">0</span></span>
+                <span class="reaction-count"><i class="fas fa-laugh" style="color: #f7b125;"></i> <span class="count-value">0</span></span>
+                <span class="reaction-count"><i class="fas fa-angry" style="color: #e9710f;"></i> <span class="count-value">0</span></span>
+                <span class="reaction-count"><i class="fas fa-sad-tear" style="color: #4267b2;"></i> <span class="count-value">0</span></span>
+            </div>
+            
+            <!-- Reaction buttons - SỬA ID popup thành 3 -->
+            <div class="reaction-wrapper">
+                <button class="reaction-btn" onclick="handleReaction(3, 'like')" aria-label="Thích">
+                    <i class="far fa-thumbs-up"></i>
+                    <span class="btn-text">Thích</span>
+                </button>
+                <div class="reaction-popup" id="reactionPopup3">
+                    <div class="reaction-emoji" onclick="reactToVideo(3, 'like')">
+                        <i class="fas fa-thumbs-up" style="color: #1877f2;"></i>
+                        <span class="emoji-tooltip">Thích</span>
+                    </div>
+                    <div class="reaction-emoji" onclick="reactToVideo(3, 'love')">
+                        <i class="fas fa-heart" style="color: #ff4d6d;"></i>
+                        <span class="emoji-tooltip">Yêu thích</span>
+                    </div>
+                    <div class="reaction-emoji" onclick="reactToVideo(3, 'haha')">
+                        <i class="fas fa-laugh" style="color: #f7b125;"></i>
+                        <span class="emoji-tooltip">Haha</span>
+                    </div>
+                    <div class="reaction-emoji" onclick="reactToVideo(3, 'sad')">
+                        <i class="fas fa-sad-tear" style="color: #4267b2;"></i>
+                        <span class="emoji-tooltip">Buồn</span>
+                    </div>
+                    <div class="reaction-emoji" onclick="reactToVideo(3, 'angry')">
+                        <i class="fas fa-angry" style="color: #e9710f;"></i>
+                        <span class="emoji-tooltip">Giận</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Comment section - SỬA ID thành 3 -->
+            <div class="video-comments">
+                <div class="comment-input">
+                    <img src="anh-luon-thuong-em.jpg" alt="Avatar" class="comment-avatar">
+                    <input type="text" placeholder="Viết bình luận..." id="commentInput3">
+                    <button onclick="addComment(3)" aria-label="Gửi bình luận">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+                <div class="comments-list" id="comments3"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Video 5 - Kỷ niệm ngọt ngào -->
+<div class="video-card">
+    <div class="video-wrapper">
+        <div class="video-thumbnail">
+            <video width="100%" height="200" controls>
+                <source src="FBDown.to-853003881088982-(1080p).mp4" type="video/mp4">
+                Trình duyệt của em không hỗ trợ video.
+            </video>
+            <div class="video-duration">0:15</div>
+        </div>
+        <div class="video-info">
+            <div class="video-header">
+                <div>
+                    <h3 class="video-title">nhảy mượt cực</h3>
+                    <p class="video-subtitle">🥰</p>
+                </div>
+                <span class="video-time">ngày 13 tháng 3 năm 2026 lúc 5:00</span>
+            </div>
+            <p class="video-desc">em thấy thích không:)?</p>
+            
+            <!-- Reaction stats - SỬA ICON Font Awesome -->
+            <div class="reaction-stats" id="reactionStats5">
+                <span class="reaction-count"><i class="fas fa-heart" style="color: #ff4d6d;"></i> <span class="count-value">0</span></span>
+                <span class="reaction-count"><i class="fas fa-thumbs-up" style="color: #1877f2;"></i> <span class="count-value">0</span></span>
+                <span class="reaction-count"><i class="fas fa-laugh" style="color: #f7b125;"></i> <span class="count-value">0</span></span>
+                <span class="reaction-count"><i class="fas fa-angry" style="color: #e9710f;"></i> <span class="count-value">0</span></span>
+                <span class="reaction-count"><i class="fas fa-sad-tear" style="color: #4267b2;"></i> <span class="count-value">0</span></span>
+            </div>
+            
+            <!-- Reaction buttons - SỬA ICON Font Awesome -->
+            <div class="reaction-wrapper">
+                <button class="reaction-btn" onclick="handleReaction(5, 'like')" aria-label="Thích">
+                    <i class="far fa-thumbs-up"></i>
+                    <span class="btn-text">Thích</span>
+                </button>
+                <div class="reaction-popup" id="reactionPopup5">
+                    <div class="reaction-emoji" onclick="reactToVideo(5, 'like')">
+                        <i class="fas fa-thumbs-up" style="color: #1877f2;"></i>
+                        <span class="emoji-tooltip">Thích</span>
+                    </div>
+                    <div class="reaction-emoji" onclick="reactToVideo(5, 'love')">
+                        <i class="fas fa-heart" style="color: #ff4d6d;"></i>
+                        <span class="emoji-tooltip">Yêu thích</span>
+                    </div>
+                    <div class="reaction-emoji" onclick="reactToVideo(5, 'haha')">
+                        <i class="fas fa-laugh" style="color: #f7b125;"></i>
+                        <span class="emoji-tooltip">Haha</span>
+                    </div>
+                    <div class="reaction-emoji" onclick="reactToVideo(5, 'sad')">
+                        <i class="fas fa-sad-tear" style="color: #4267b2;"></i>
+                        <span class="emoji-tooltip">Buồn</span>
+                    </div>
+                    <div class="reaction-emoji" onclick="reactToVideo(5, 'angry')">
+                        <i class="fas fa-angry" style="color: #e9710f;"></i>
+                        <span class="emoji-tooltip">Giận</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Comment section -->
+            <div class="video-comments">
+                <div class="comment-input">
+                    <img src="anh-luon-thuong-em.jpg" alt="Avatar" class="comment-avatar">
+                    <input type="text" placeholder="Viết bình luận..." id="commentInput5">
+                    <button onclick="addComment(5)" aria-label="Gửi bình luận">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+                <div class="comments-list" id="comments5"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- GẶP NHAU SECTION -->
+<section id="meet" class="meet-section">
+    <div class="container">
+        <div class="section-header">
+            <h2><i class="fas fa-heart"></i> Hành Trình Gặp Nhau</h2>
+            <p>Đồng Nai → Hà Nội</p>
+        </div>
+        
+        <div class="meet-container">
+            <div class="money-tracker">
+                <h3><i class="fas fa-piggy-bank"></i> Quỹ Gặp Nhau</h3>
+                
+                <div class="money-input-group">
+                    <input type="number" id="moneyAmount" placeholder="Nhập số tiền (VNĐ)" min="0" step="1000">
+                    <button onclick="addMoney()" class="add-money-btn">
+                        <i class="fas fa-plus"></i> Thêm
+                    </button>
+                </div>
+                
+                <div class="money-history" id="moneyHistory">
+                    <!-- Lịch sử sẽ được thêm bằng JS -->
+                </div>
+                
+                <div class="money-summary">
+                    <div class="summary-item">
+                        <span class="label">🚗 Đi (Grab/Xe):</span>
+                        <span class="value" id="goCost">0 VNĐ</span>
+                    </div>
+                    <div class="summary-item">
+                        <span class="label">🚗 Về (Grab/Xe):</span>
+                        <span class="value" id="returnCost">0 VNĐ</span>
+                    </div>
+                    <div class="summary-item total">
+                        <span class="label">💰 Tổng cộng:</span>
+                        <span class="value" id="totalCost">0 VNĐ</span>
+                    </div>
+                </div>
+                
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+                </div>
+                <p class="goal-text" id="goalText">0 / 1.600.000 VNĐ (mục tiêu 2 chiều)</p>
+                
+                <div class="reset-btn-container">
+                    <button onclick="resetMoney()" class="reset-btn">
+                        <i class="fas fa-redo-alt"></i> Đặt lại
+                    </button>
+                </div>
+            </div>
+            
+            <div class="journey-info">
+                <div class="journey-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4>Đồng Nai</h4>
+                    <p>Điểm xuất phát</p>
+                </div>
+                <div class="journey-arrow">
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-long-arrow-alt-left"></i>
+                </div>
+                <div class="journey-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4>Hà Nội</h4>
+                    <p>Điểm đến</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER - CHUYÊN NGHIỆP -->
+<footer class="footer">
+    <div class="container">
+        <!-- Waves animation trên đầu footer -->
+        <div class="footer-waves">
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#ff9a9e" fill-opacity="0.3" d="M0,192L48,197.3C96,203,192,213,288,208C384,203,480,181,576,181.3C672,181,768,203,864,224C960,245,1056,267,1152,250.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+                <path fill="#ffb6c1" fill-opacity="0.5" d="M0,224L48,213.3C96,203,192,181,288,181.3C384,181,480,203,576,224C672,245,768,267,864,261.3C960,256,1056,224,1152,208C1248,192,1344,192,1392,192L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+        
+        <!-- Nội dung footer chính -->
+        <div class="footer-main">
+            <!-- Cột 1: Giới thiệu -->
+            <div class="footer-col footer-about">
+                <div class="footer-logo">
+                    <i class="fas fa-heart"></i>
+                    <span>Dành Cho Em | Minh Anh</span>
+                </div>
+                <p class="footer-description">
+                    Một góc nhỏ dành riêng cho em, nơi lưu giữ những kỷ niệm đẹp nhất của chúng mình. 
+                    Mỗi dòng code, mỗi con chữ đều chứa đựng tình cảm anh dành cho em.
+                </p>
+                <div class="footer-social">
+                    <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" class="social-icon" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <!-- Cột 2: Liên lạc với anh -->
+            <div class="footer-col footer-contact">
+                <h3>Liên lạc với anh <i class="fas fa-heart" style="font-size: 18px; margin-left: 5px;"></i></h3>
+                <ul class="contact-list">
+                    <li>
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:sangminh@gmail.com" class="contact-value">johnminhsang963@gmail.com</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="contact-icon">
+                            <i class="fab fa-facebook-messenger"></i>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label">Messenger</span>
+                            <a href="#" class="contact-value">m.me/minhsang</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label">Số điện thoại</span>
+                            <a href="tel:0123456789" class="contact-value">0326896956</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Cột 3: Thông tin em -->
+            <div class="footer-col footer-contact">
+                <h3>Thông tin em <i class="fas fa-heart" style="font-size: 18px; margin-left: 5px;"></i></h3>
+                <ul class="contact-list">
+                    <li>
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:minhanh@example.com" class="contact-value">chịu mốt ghi:)</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="contact-icon">
+                            <i class="fab fa-facebook-messenger"></i>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label">Messenger</span>
+                            <a href="#" class="contact-value">Minh Anh</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label">Số điện thoại</span>
+                            <a href="tel:0987654321" class="contact-value">dẹp nốt luôn:)</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Cột 4: Truy cập nhanh -->
+            <div class="footer-col footer-links">
+                <h3>Truy cập nhanh</h3>
+                <ul class="quick-links">
+                    <li><a href="#home"><i class="fas fa-chevron-right"></i> Trang chủ</a></li>
+                    <li><a href="#images"><i class="fas fa-chevron-right"></i> Hình ảnh</a></li>
+                    <li><a href="#memories"><i class="fas fa-chevron-right"></i> Kỷ niệm</a></li>
+                    <li><a href="#videos"><i class="fas fa-chevron-right"></i> Video hài</a></li>
+                    <li><a href="#meet"><i class="fas fa-chevron-right"></i> Gặp nhau</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Divider đẹp -->
+        <div class="footer-divider">
+            <span class="divider-heart"><i class="fas fa-heart"></i></span>
+        </div>
+        
+        <!-- Copyright và thông điệp -->
+        <div class="footer-bottom">
+            <p class="copyright">
+                &copy; 2026 <strong>Dành Cho Em | Minh Anh</strong>. Made with <i class="fas fa-heart" style="color: #ff4d6d;"></i> by Minh Sang
+            </p>
+            <p class="love-message">
+                Dành cho Minh Anh - Người anh thương <i class="fas fa-heart" style="color: #ff4d6d;"></i>
+            </p>
+            <p class="quote">
+                "Yêu thương không phải là nhìn nhau, mà là cùng nhau nhìn về một hướng"
+            </p>
+        </div>
+        
+        <!-- Back to top button -->
+        <div class="back-to-top">
+            <a href="#" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+
+<!-- JavaScript chính -->
+<script src="script.js"></script>
+    
+</body>
+</html>
